@@ -326,7 +326,7 @@ def train(
     else:
         print("No NN or static_controls given!")
         return
-
+    
     def _single_iteration(idxN, rangen):
         with GradientTape() as tape:
             loss_diff, loss = simulation.execute(idxN,rangen)
@@ -335,10 +335,7 @@ def train(
         return grads, loss
     
     single_iteration = function(jit_compile=False)(_single_iteration)
-    # if xla_compile:
-    #     single_iteration = function(jit_compile=True)(_single_iteration)
-    # else:
-    #     single_iteration = function(jit_compile=False)(_single_iteration)
+    
         
 
     def update_nn(rangen):

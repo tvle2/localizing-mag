@@ -64,7 +64,6 @@ class NVCenter(StatelessPhysicalModel):
 
         self.res = res
 
-    @tf.function(jit_compile=False)
     def perform_measurement(
         self, idxN:int,controls: Tensor, parameters: Tensor,
         meas_step: Tensor,
