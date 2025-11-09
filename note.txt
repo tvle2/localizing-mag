@@ -1,0 +1,252 @@
+source  localizing/bin/activate
+
+jupyter notebook --no-browser
+
+pip install pandas jax matplotlib tensorstore progressbar2 flax dotenv tqdm networkx prettytable gputil
+
+
+
+#r_max_us - 35_000.0
+Run 1:
+[Stage-2] shots=64 | last avg τ≈41.411 µs | used_res≈34829.0 µs
+  step 00: tau=44.206 µs, phi=-1.039 rad, r=-1
+  step 01: tau=44.057 µs, phi=-0.408 rad, r=-1
+  step 02: tau=43.911 µs, phi=0.330 rad, r=-1
+  step 03: tau=43.776 µs, phi=0.616 rad, r=-1
+  step 04: tau=43.628 µs, phi=2.228 rad, r=-1
+  step 05: tau=43.489 µs, phi=3.131 rad, r=+1
+  step 06: tau=43.387 µs, phi=-3.079 rad, r=+1
+  step 07: tau=43.319 µs, phi=-1.538 rad, r=-1
+  step 08: tau=43.174 µs, phi=-1.239 rad, r=-1
+  step 09: tau=43.008 µs, phi=2.463 rad, r=-1
+  step 10: tau=42.926 µs, phi=-1.148 rad, r=+1
+  step 11: tau=42.791 µs, phi=-0.887 rad, r=+1
+  step 12: tau=42.649 µs, phi=1.473 rad, r=+1
+  step 13: tau=42.547 µs, phi=-0.753 rad, r=-1
+  step 14: tau=42.452 µs, phi=-2.915 rad, r=-1
+  step 15: tau=42.290 µs, phi=-2.940 rad, r=+1
+  step 16: tau=42.176 µs, phi=-3.016 rad, r=+1
+  step 17: tau=42.052 µs, phi=-0.651 rad, r=+1
+  step 18: tau=41.949 µs, phi=-2.751 rad, r=-1
+  step 19: tau=41.855 µs, phi=1.592 rad, r=+1
+  step 20: tau=41.779 µs, phi=-1.534 rad, r=-1
+  step 21: tau=41.698 µs, phi=-2.423 rad, r=-1
+  step 22: tau=41.590 µs, phi=-0.428 rad, r=-1
+  step 23: tau=41.505 µs, phi=-0.443 rad, r=-1
+  step 24: tau=41.423 µs, phi=0.281 rad, r=-1
+  step 25: tau=41.346 µs, phi=0.741 rad, r=-1
+  step 26: tau=41.272 µs, phi=1.288 rad, r=-1
+  step 27: tau=41.202 µs, phi=1.763 rad, r=-1
+  step 28: tau=41.136 µs, phi=2.230 rad, r=-1
+  step 29: tau=41.072 µs, phi=2.670 rad, r=-1
+  step 30: tau=41.012 µs, phi=3.088 rad, r=-1
+  step 31: tau=40.956 µs, phi=-2.798 rad, r=-1
+  step 32: tau=40.902 µs, phi=-2.420 rad, r=-1
+  step 33: tau=40.851 µs, phi=-2.062 rad, r=-1
+  step 34: tau=40.803 µs, phi=-1.723 rad, r=-1
+  step 35: tau=40.758 µs, phi=-1.401 rad, r=-1
+  step 36: tau=40.715 µs, phi=-1.096 rad, r=-1
+  step 37: tau=40.675 µs, phi=-0.809 rad, r=-1
+  step 38: tau=40.637 µs, phi=-0.537 rad, r=-1
+  step 39: tau=40.602 µs, phi=-0.281 rad, r=-1
+  step 40: tau=40.569 µs, phi=-0.041 rad, r=-1
+  step 41: tau=40.538 µs, phi=0.185 rad, r=-1
+  step 42: tau=40.509 µs, phi=0.396 rad, r=-1
+  step 43: tau=40.482 µs, phi=0.592 rad, r=-1
+  step 44: tau=40.458 µs, phi=0.776 rad, r=-1
+  step 45: tau=40.435 µs, phi=0.945 rad, r=-1
+  step 46: tau=40.414 µs, phi=1.101 rad, r=-1
+  step 47: tau=40.395 µs, phi=1.245 rad, r=-1
+  step 48: tau=40.377 µs, phi=1.377 rad, r=-1
+  step 49: tau=40.361 µs, phi=1.496 rad, r=-1
+  step 50: tau=40.347 µs, phi=1.604 rad, r=-1
+  step 51: tau=40.334 µs, phi=1.701 rad, r=-1
+  step 52: tau=40.323 µs, phi=1.786 rad, r=-1
+  step 53: tau=40.313 µs, phi=1.861 rad, r=-1
+  step 54: tau=40.304 µs, phi=1.926 rad, r=-1
+  step 55: tau=40.297 µs, phi=1.980 rad, r=-1
+  step 56: tau=40.292 µs, phi=2.025 rad, r=-1
+  step 57: tau=40.287 µs, phi=2.060 rad, r=-1
+  step 58: tau=40.284 µs, phi=2.086 rad, r=-1
+  step 59: tau=40.282 µs, phi=2.103 rad, r=-1
+  step 60: tau=40.281 µs, phi=2.111 rad, r=-1
+  step 61: tau=40.282 µs, phi=2.110 rad, r=-1
+  step 62: tau=40.283 µs, phi=2.100 rad, r=-1
+  step 63: tau=40.286 µs, phi=2.082 rad, r=-1
+
+True corner (nT): 40012.3
+Estimated corner (nT): 40659.62
+
+[Stage-2] shots=64 | last avg τ≈41.465 µs | used_res≈34832.4 µs
+  step 00: tau=44.211 µs, phi=-2.364 rad, r=-1
+  step 01: tau=44.063 µs, phi=-1.118 rad, r=+1
+  step 02: tau=43.917 µs, phi=0.063 rad, r=-1
+  step 03: tau=43.781 µs, phi=0.579 rad, r=-1
+  step 04: tau=43.643 µs, phi=1.545 rad, r=-1
+  step 05: tau=43.510 µs, phi=2.262 rad, r=+1
+  step 06: tau=43.373 µs, phi=-2.599 rad, r=+1
+  step 07: tau=43.244 µs, phi=-0.600 rad, r=-1
+  step 08: tau=43.155 µs, phi=0.453 rad, r=-1
+  step 09: tau=43.048 µs, phi=-1.719 rad, r=+1
+  step 10: tau=42.935 µs, phi=-2.617 rad, r=-1
+  step 11: tau=42.868 µs, phi=0.476 rad, r=+1
+  step 12: tau=42.782 µs, phi=-1.461 rad, r=+1
+  step 13: tau=42.601 µs, phi=3.119 rad, r=+1
+  step 14: tau=42.526 µs, phi=-2.305 rad, r=-1
+  step 15: tau=42.384 µs, phi=1.062 rad, r=-1
+  step 16: tau=42.299 µs, phi=-1.788 rad, r=+1
+  step 17: tau=42.206 µs, phi=2.861 rad, r=-1
+  step 18: tau=42.129 µs, phi=-0.318 rad, r=+1
+  step 19: tau=42.040 µs, phi=-1.617 rad, r=+1
+  step 20: tau=41.916 µs, phi=2.218 rad, r=+1
+  step 21: tau=41.841 µs, phi=-2.099 rad, r=-1
+  step 22: tau=41.746 µs, phi=-1.206 rad, r=-1
+  step 23: tau=41.656 µs, phi=-0.742 rad, r=-1
+  step 24: tau=41.568 µs, phi=0.099 rad, r=+1
+  step 25: tau=41.546 µs, phi=2.181 rad, r=+1
+  step 26: tau=41.439 µs, phi=0.945 rad, r=-1
+  step 27: tau=41.357 µs, phi=0.786 rad, r=-1
+  step 28: tau=41.274 µs, phi=3.008 rad, r=-1
+  step 29: tau=41.200 µs, phi=0.188 rad, r=-1
+  step 30: tau=41.132 µs, phi=0.111 rad, r=+1
+  step 31: tau=41.059 µs, phi=-0.742 rad, r=-1
+  step 32: tau=41.018 µs, phi=0.472 rad, r=+1
+  step 33: tau=40.948 µs, phi=1.850 rad, r=+1
+  step 34: tau=40.889 µs, phi=0.837 rad, r=+1
+  step 35: tau=40.826 µs, phi=-2.786 rad, r=-1
+  step 36: tau=40.774 µs, phi=0.870 rad, r=+1
+  step 37: tau=40.719 µs, phi=-2.040 rad, r=-1
+  step 38: tau=40.679 µs, phi=0.616 rad, r=-1
+  step 39: tau=40.631 µs, phi=-0.787 rad, r=-1
+  step 40: tau=40.594 µs, phi=0.488 rad, r=-1
+  step 41: tau=40.557 µs, phi=0.319 rad, r=-1
+  step 42: tau=40.525 µs, phi=0.697 rad, r=-1
+  step 43: tau=40.494 µs, phi=0.879 rad, r=-1
+  step 44: tau=40.467 µs, phi=1.084 rad, r=-1
+  step 45: tau=40.442 µs, phi=1.266 rad, r=-1
+  step 46: tau=40.419 µs, phi=1.433 rad, r=-1
+  step 47: tau=40.398 µs, phi=1.585 rad, r=-1
+  step 48: tau=40.379 µs, phi=1.723 rad, r=-1
+  step 49: tau=40.362 µs, phi=1.847 rad, r=-1
+  step 50: tau=40.347 µs, phi=1.958 rad, r=-1
+  step 51: tau=40.334 µs, phi=2.056 rad, r=-1
+  step 52: tau=40.322 µs, phi=2.142 rad, r=-1
+  step 53: tau=40.312 µs, phi=2.216 rad, r=-1
+  step 54: tau=40.304 µs, phi=2.279 rad, r=-1
+  step 55: tau=40.297 µs, phi=2.330 rad, r=-1
+  step 56: tau=40.291 µs, phi=2.371 rad, r=-1
+  step 57: tau=40.287 µs, phi=2.402 rad, r=-1
+  step 58: tau=40.285 µs, phi=2.423 rad, r=-1
+  step 59: tau=40.283 µs, phi=2.434 rad, r=-1
+  step 60: tau=40.283 µs, phi=2.436 rad, r=-1
+  step 61: tau=40.284 µs, phi=2.428 rad, r=-1
+  step 62: tau=40.286 µs, phi=2.411 rad, r=-1
+  step 63: tau=40.290 µs, phi=2.386 rad, r=-1
+
+True corner (nT): 40012.3
+Estimated corner (nT): 40612.739
+
+
+##r_max_us - 40_000.0
+[Stage-2] shots=80 | last avg τ≈41.795 µs | used_res≈39362.2 µs
+  step 00: tau=45.432 µs, phi=1.679 rad, r=-1
+  step 01: tau=45.285 µs, phi=2.986 rad, r=+1
+  step 02: tau=45.144 µs, phi=-2.173 rad, r=-1
+  step 03: tau=45.004 µs, phi=-1.889 rad, r=-1
+  step 04: tau=44.856 µs, phi=-0.429 rad, r=-1
+  step 05: tau=44.721 µs, phi=0.042 rad, r=+1
+  step 06: tau=44.581 µs, phi=1.468 rad, r=+1
+  step 07: tau=44.464 µs, phi=2.355 rad, r=-1
+  step 08: tau=44.314 µs, phi=2.278 rad, r=+1
+  step 09: tau=44.226 µs, phi=-0.763 rad, r=-1
+  step 10: tau=44.102 µs, phi=-2.191 rad, r=+1
+  step 11: tau=44.009 µs, phi=1.348 rad, r=-1
+  step 12: tau=43.905 µs, phi=-1.068 rad, r=+1
+  step 13: tau=43.789 µs, phi=-2.041 rad, r=+1
+  step 14: tau=43.572 µs, phi=-2.400 rad, r=-1
+  step 15: tau=43.440 µs, phi=-1.677 rad, r=-1
+  step 16: tau=43.303 µs, phi=-0.267 rad, r=+1
+  step 17: tau=43.185 µs, phi=-0.437 rad, r=-1
+  step 18: tau=43.005 µs, phi=-3.060 rad, r=+1
+  step 19: tau=42.801 µs, phi=2.143 rad, r=+1
+  step 20: tau=42.832 µs, phi=-0.083 rad, r=+1
+  step 21: tau=42.739 µs, phi=1.139 rad, r=+1
+  step 22: tau=42.640 µs, phi=2.072 rad, r=+1
+  step 23: tau=42.549 µs, phi=-1.411 rad, r=-1
+  step 24: tau=42.434 µs, phi=-0.262 rad, r=-1
+  step 25: tau=42.331 µs, phi=-0.116 rad, r=-1
+  step 26: tau=42.218 µs, phi=1.653 rad, r=-1
+  step 27: tau=42.129 µs, phi=0.886 rad, r=-1
+  step 28: tau=42.017 µs, phi=-2.799 rad, r=-1
+  step 29: tau=41.939 µs, phi=2.005 rad, r=-1
+  step 30: tau=41.833 µs, phi=-1.554 rad, r=-1
+  step 31: tau=41.756 µs, phi=-2.633 rad, r=-1
+  step 32: tau=41.666 µs, phi=-0.938 rad, r=-1
+  step 33: tau=41.590 µs, phi=-0.972 rad, r=-1
+  step 34: tau=41.513 µs, phi=-0.209 rad, r=-1
+  step 35: tau=41.439 µs, phi=0.199 rad, r=-1
+  step 36: tau=41.370 µs, phi=0.681 rad, r=-1
+  step 37: tau=41.305 µs, phi=1.137 rad, r=-1
+  step 38: tau=41.243 µs, phi=1.576 rad, r=-1
+  step 39: tau=41.183 µs, phi=1.998 rad, r=-1
+  step 40: tau=41.126 µs, phi=2.403 rad, r=-1
+  step 41: tau=41.072 µs, phi=2.792 rad, r=-1
+  step 42: tau=41.020 µs, phi=-3.118 rad, r=-1
+  step 43: tau=40.971 µs, phi=-2.760 rad, r=-1
+  step 44: tau=40.924 µs, phi=-2.419 rad, r=-1
+  step 45: tau=40.879 µs, phi=-2.092 rad, r=-1
+  step 46: tau=40.836 µs, phi=-1.781 rad, r=-1
+  step 47: tau=40.796 µs, phi=-1.484 rad, r=-1
+  step 48: tau=40.758 µs, phi=-1.202 rad, r=-1
+  step 49: tau=40.722 µs, phi=-0.933 rad, r=-1
+  step 50: tau=40.687 µs, phi=-0.678 rad, r=-1
+  step 51: tau=40.655 µs, phi=-0.438 rad, r=-1
+  step 52: tau=40.624 µs, phi=-0.210 rad, r=-1
+  step 53: tau=40.595 µs, phi=0.006 rad, r=-1
+  step 54: tau=40.568 µs, phi=0.208 rad, r=-1
+  step 55: tau=40.543 µs, phi=0.398 rad, r=-1
+  step 56: tau=40.519 µs, phi=0.577 rad, r=-1
+  step 57: tau=40.497 µs, phi=0.743 rad, r=-1
+  step 58: tau=40.476 µs, phi=0.899 rad, r=-1
+  step 59: tau=40.457 µs, phi=1.044 rad, r=-1
+  step 60: tau=40.439 µs, phi=1.178 rad, r=-1
+  step 61: tau=40.423 µs, phi=1.301 rad, r=-1
+  step 62: tau=40.408 µs, phi=1.415 rad, r=-1
+  step 63: tau=40.394 µs, phi=1.519 rad, r=-1
+  step 64: tau=40.382 µs, phi=1.614 rad, r=-1
+  step 65: tau=40.370 µs, phi=1.700 rad, r=-1
+  step 66: tau=40.360 µs, phi=1.777 rad, r=-1
+  step 67: tau=40.351 µs, phi=1.845 rad, r=-1
+  step 68: tau=40.343 µs, phi=1.905 rad, r=-1
+  step 69: tau=40.337 µs, phi=1.957 rad, r=-1
+  step 70: tau=40.331 µs, phi=2.001 rad, r=+1
+  step 71: tau=40.324 µs, phi=2.024 rad, r=-1
+  step 72: tau=40.321 µs, phi=2.052 rad, r=-1
+  step 73: tau=40.318 µs, phi=2.074 rad, r=-1
+  step 74: tau=40.316 µs, phi=2.090 rad, r=-1
+  step 75: tau=40.316 µs, phi=2.098 rad, r=-1
+  step 76: tau=40.316 µs, phi=2.100 rad, r=-1
+  step 77: tau=40.317 µs, phi=2.093 rad, r=-1
+  step 78: tau=40.320 µs, phi=2.080 rad, r=-1
+  step 79: tau=40.323 µs, phi=2.059 rad, r=-1
+
+True corner (nT): 40012.3 
+Estimated corner (nT): 40625.087
+(3.5217180000000003, 11.7977553) rad/µs
+
+
+
+seed  = 42, K = 160: Estimated corner (nT): 30022.59 , 
+seed = 42, K = 200: Estimated corner (nT): 30018.158
+seed = 42, K = 300: Estimated corner (nT): 30014.989
+
+
+
+True corner (nT): [48035.562, 48023.978, 48037.852, 48023.594]
+Estimated corner (nT): [48036.47671797868, 48025.71209841279, 48038.487648551214, 48024.82708053419] K0 = 500
+Estimated corner (nT): [48036.93793554038, 48025.62357364706, 48039.16472431921, 48024.22699372071] K0 = 1024
+Estimated corner (nT): [48036.68346090328, 48024.80974172662, 48038.97902318666, 48024.85290134051]
+
+Estimated corner (nT): [48036.17143183036, 48024.54843418937, 48038.21665407079, 48024.22688082175]
+
+Estimated corner (nT): [48036.20771484126, 48024.491339127875, 48038.53857741244, 48024.14155970099]

@@ -1,0 +1,16 @@
+/Federal/trained_models
+/Federal/trained_models_history_weights
+/Federal/trained_models_history.csv
+/localizing
+/FL_Localizing/__pycache__
+/FL_Localizing/dataset
+/Federated RL-testing/Test-qsensoropt-master-nnRL/src/__pycache__
+/Federated RL-testing/Test-qsensoropt-master-nnRL/src/qsensoropt/__pycache__
+/Federated RL-training/Train-RL-Federal/src/__pycache__
+/Federated RL-training/Train-RL-Federal/src/.ipynb_checkpoints
+/Federated RL-training/Train-RL-Federal/src/qsensoropt/__pycache__
+/Federated RL-training/Train-RL-Federal/src/qsensoropt/.ipynb_checkpoints
+/Federated RL-training/queso-main/queso/__pycache__
+/Federated RL-training/queso-main/queso/.ipynb_checkpoints
+/queso_run_BNN/ckpts/ocdbt.process_0
+/queso_run_BNN/ckpts/d
